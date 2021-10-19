@@ -10,8 +10,7 @@
     "lint": "scripts/lint.sh",
     "dev": "scripts/dev.sh",
     "build": "scripts/build.sh",
-    "test": "scripts/test.sh",
-    "prepublish": "yarn build"
+    "test": "scripts/test.sh"
   },
   "repository": {
     "type": "git",
@@ -52,5 +51,8 @@
     "typed-promisify": "^0.4.0",
     "web3-provider-engine": "^13.6.5",
     "wyvern-js": "github:ProjectOpenSea/wyvern-js#semver:^3.2.1"
+  },
+  "resolutions": {
+    "sha3": "2.1.4"
   }
 }
